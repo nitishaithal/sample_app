@@ -1,1 +1,6 @@
 # Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+nitish:
+  name: Nitish Aithal
+  email: nitish.k008@gmail.com
+  password_digest: <%= User.digest('password') %>
+  
